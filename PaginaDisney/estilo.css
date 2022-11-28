@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto Slab';
+	background-color: #B3F3FE;
+}
+
+header{
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 60px 0;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: #696969;
+	margin: 0 30px;
+	padding: 5px 15px;
+	border-radius: 30px;
+}
+
+nav a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+.encabezado-img{
+	background-image: url(img/fondoCastillo.png);
+	height: 500px;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.encabezado-img p{
+	font-size: 20px;
+}
+
+.encabezado-img h1{
+	font-size: 100px;
+	padding: 10px;
+}
+
+@font-face {
+	font-family: waltograph;
+	src: url(waltographUI.ttf);
+}
+
